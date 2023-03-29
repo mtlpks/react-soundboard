@@ -1,0 +1,89 @@
+.btn {
+  width: 150px;
+  height: 150px;
+  border: 1px solid gray;
+  font-size: 1.8rem;
+  color: white;
+  box-shadow: 2px 2dpx rgba(0, 0, 0, 0.548);
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.btn:focus {
+  outline: 0;
+  color: white;
+}
+
+.btn:active {
+  
+  background-color: rgba(255, 255, 255, 0.459);
+  outline: 0;
+}
+
+.keyElement {
+  position: absolute;
+  top: 8%;
+  right: 0%;
+  color: white;
+  font-size: 2rem;
+}
+
+.col-xs-4 {
+  width: 150px;
+  height: 150px;
+  margin: 4px;
+}
+
+.btn-inst {
+  font-size: 1.3rem;
+  width: 150px;
+  height: 70px;
+  margin-left: 2px;
+}
+
+.btn-inst:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+
+body {
+  background-image: url('images/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#logo {
+  background-image: url('images/daft-punk-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+}
+
+#logo-text {
+  position: absolute;
+  bottom: -3%;
+  left: 17%;
+  color: white;
+}
+
+.App {
+  display: flex;
+}
+
+.side {
+  width: 300px;
+  position: relative;
+}
+
+#credits {
+  position: absolute;
+  right: 10%;
+  top: 4%;
+}
+
+#right-side {
+  margin-left: 30px;
+}
