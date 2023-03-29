@@ -1,8 +1,8 @@
 .btn {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border: 1px solid gray;
-  font-size: 1.8rem;
+  font-size: 1rem;
   color: white;
   box-shadow: 2px 2dpx rgba(0, 0, 0, 0.548);
   background-color: rgba(128, 128, 128, 0.5);
@@ -21,22 +21,23 @@
 
 .keyElement {
   position: absolute;
-  top: 8%;
-  right: 0%;
+  top: 4%;
+  right: 4%;
   color: white;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .col-xs-4 {
-  width: 150px;
-  height: 150px;
+  position: relative;
+  width: 100px;
+  height: 100px;
   margin: 4px;
 }
 
 .btn-inst {
-  font-size: 1.3rem;
-  width: 150px;
-  height: 70px;
+  font-size: 1rem;
+  width: 100px;
+  height: 45px;
   margin-left: 2px;
 }
 
@@ -46,44 +47,59 @@
 
 body {
   background-image: url('images/wallpaper.jpg');
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
 }
 
 #logo {
-  background-image: url('images/daft-punk-logo.png');
+  background-image: url('images/soundboard-logo.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 150px;
-  height: 100px;
-  position: absolute;
-  top: 4%;
-  left: 4%;
+  width: 250px;
+  height: 140px;
+  position: relative;
+  margin-bottom: 10px;
 }
 
-#logo-text {
-  position: absolute;
-  bottom: -3%;
-  left: 17%;
-  color: white;
+#credits {
+  color: rgba(255, 255, 255, 0.356);
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 0;
 }
 
 .App {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.side {
-  width: 300px;
+#buttonsDiv {
   position: relative;
+  width: auto;
+  margin-bottom: 10px;
 }
 
-#credits {
-  position: absolute;
-  right: 10%;
-  top: 4%;
+#portfolio {
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-#right-side {
-  margin-left: 30px;
+#portfolio:hover {
+  color: white
+}
+
+@media only screen and (max-width:900px) {
+  body {
+    background-position: center;
+  }
+
+  #credits {
+    position: relative;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.747);
+  }
+
 }

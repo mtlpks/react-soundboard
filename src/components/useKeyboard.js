@@ -5,7 +5,6 @@ function useKeyboard(key, func) {
     function handleKeyDown(event) {
       if (event.key === key) {
         event.preventDefault();
-        console.log('hi')
         func();
       }
     }

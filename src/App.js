@@ -23,13 +23,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App row" id="drum-machine">
-        <div className="side" id="left-side">
-          <div id="logo">
-            <h4 id="logo-text">Soundboard</h4>
-          </div>
+      <div className="App">
+        <div id="logo">
         </div>
-        <div id="buttonsDiv" className="container-fluid">
+        <div id="buttonsDiv" className="container">
           <div className="row">
             <div className="col-xs-4">
               <SoundButton audio={workIt} string="Work It" triggerKey="q" />
@@ -69,22 +66,23 @@ class App extends React.Component {
               <p className="keyElement">X</p>
             </div>
             <div className="col-xs-4">
-            <button
-              className="btn-inst btn text-center"
-              onClick={this.handlePlay.bind(this)}
-            >
-              Play Instrumental
-            </button>
+              <button
+                className="btn-inst btn text-center"
+                onClick={this.handlePlay.bind(this)}
+              >
+                <i className="fa-solid fa-play"></i> Play Inst
+              </button>
 
-            <button className="btn-inst btn" onClick={this.handleStop.bind(this)}>
-              Pause Instrumental
-            </button>
+              <button
+                className="btn-inst btn"
+                onClick={this.handleStop.bind(this)}
+              >
+                <i className="fa-solid fa-stop"></i> Stop Inst
+              </button>
             </div>
           </div>
         </div>
-        <div className="side" id="right-side">
-          <h5 id="credits">Made by Matheus Leopoldo - @mtlpks</h5>
-        </div>
+        <h5 id="credits">Made by Matheus Leopoldo - <a id="portfolio" href="https://mtlpks.github.io/portfolio/" target="_blank">@mtlpks</a></h5>
       </div>
     );
   }

@@ -7,7 +7,7 @@ function SoundButton(props) {
   }
   const key = props.triggerKey
   useKeyboard(key, start)
-  return <button className="btn btn-sound text-center" tabIndex="-1" onClick={start}>{props.string}</button>
+  return <button className="btn btn-sound" onClick={start}>{props.string}</button>
   
 }
 export default SoundButton;
