@@ -82,7 +82,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <h5 id="credits">Made by Matheus Leopoldo - <a id="portfolio" href="https://mtlpks.github.io/portfolio/" target="_blank">@mtlpks</a></h5>
+        <h5 id="credits">Made by Matheus Leopoldo - <a id="portfolio" href="https://mtlpks.github.io/portfolio/" target="_blank" rel="noreferrer">@mtlpks</a></h5>
       </div>
     );
   }
