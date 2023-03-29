@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/react-soundboard/static/css/main.be993dff.css",
-    "main.js": "/react-soundboard/static/js/main.bfc4eba1.js",
+    "main.css": "/react-soundboard/static/css/main.b10c510a.css",
+    "main.js": "/react-soundboard/static/js/main.f3a96afb.js",
     "static/js/787.ae67f9cd.chunk.js": "/react-soundboard/static/js/787.ae67f9cd.chunk.js",
     "static/media/9-instrumental.mp3": "/react-soundboard/static/media/9-instrumental.4d6a01e046d7c8903a97.mp3",
     "static/media/wallpaper.jpg": "/react-soundboard/static/media/wallpaper.5608b4fcf1d7984bbd67.jpg",
-    "static/media/daft-punk-logo.png": "/react-soundboard/static/media/daft-punk-logo.43953ce381430f444b6b.png",
+    "static/media/soundboard-logo.png": "/react-soundboard/static/media/soundboard-logo.b6ae91b33c618edc80f7.png",
     "static/media/8-stronger.mp3": "/react-soundboard/static/media/8-stronger.e33dc6d9726b35a9aed1.mp3",
     "static/media/6-better.mp3": "/react-soundboard/static/media/6-better.620d2b2750bc4cd9404b.mp3",
     "static/media/5-harder.mp3": "/react-soundboard/static/media/5-harder.c16bf0176918e5aa88d9.mp3",
@@ -15,12 +15,12 @@
     "static/media/1-work-it.mp3": "/react-soundboard/static/media/1-work-it.bee3541852f154090780.mp3",
     "static/media/3-do-it.mp3": "/react-soundboard/static/media/3-do-it.6ba36c71c7be604c6177.mp3",
     "index.html": "/react-soundboard/index.html",
-    "main.be993dff.css.map": "/react-soundboard/static/css/main.be993dff.css.map",
-    "main.bfc4eba1.js.map": "/react-soundboard/static/js/main.bfc4eba1.js.map",
+    "main.b10c510a.css.map": "/react-soundboard/static/css/main.b10c510a.css.map",
+    "main.f3a96afb.js.map": "/react-soundboard/static/js/main.f3a96afb.js.map",
     "787.ae67f9cd.chunk.js.map": "/react-soundboard/static/js/787.ae67f9cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be993dff.css",
-    "static/js/main.bfc4eba1.js"
+    "static/css/main.b10c510a.css",
+    "static/js/main.f3a96afb.js"
   ]
 }
